@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html manifest="kfcSearch.appcache">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- <link rel="SHORTCUT ICON" href="icon/kfcSearch.ico" >
+	  	<link rel="shortcut icon" sizes="128x128" href="icon/kfcSearch-128.png">
+	  	<link rel="shortcut icon" sizes="196x196" href="icon/kfcSearch-196.png">
+		<link rel="apple-touch-icon" href="icon/kfcSearch_64x64.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="icon/kfcSearch-76.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="icon/kfcSearch-120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="icon/kfcSearch-152.png"> -->
+    <!-- Startup configuration -->
+    <!-- <link rel="manifest" href="kfcfindermanifest.webmanifest"> -->
+    <link rel="stylesheet" href="jquery.mobile-1.4.3.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+    <script src="customerlist.js"></script>
+    <script src="js/main.js"></script>
+    <title>Nearby Customers</title>
+    <style>
+    .ui-input-search {
+        width: auto;
+        display: inline-block;
+    }
+
+    .ui-field-contain {
+        border-bottom-width: 0;
+    }
+
+    .goTop2 {
+        background: url(images/totop.png) no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .goTop {
+        width: 50px;
+        height: 44px;
+        display: block;
+        position: fixed;
+        bottom: 55px;
+        right: 20px;
+        text-indent: -5000px;
+        z-index: 999;
+    }
+    </style>
+</head>
+
+<body>
+    <div data-role="page" id="page1">
+        <div data-theme="e" data-role="header">
+            <h3>Nearby Customers</h3>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" id='storeList' data-filter="true" data-filter-placeholder='search keyword'>
+            </ul>
+        </div>
+        <a class="goTop goTop2" id="go2top" href="javascript:(function(){$('body, html').animate({scrollTop: 0}, 600);})()">go top</a>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h3 id="auther_label">
+		            Powered by BH_Lin
+		        </h3>
+        </div>
+    </div>
+</body>
+
+</html>
