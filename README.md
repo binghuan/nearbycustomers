@@ -1,6 +1,11 @@
 # nearbycustomers
 
+
+<img src="icons/Icon-196.png">
+
 #### The Test
+Launch app by link <a href="http://binghuan.github.io/nearbycustomers/">http://binghuan.github.io/nearbycustomers/</a><br/>
+
 No. 3: We have some customer records in a text file (customers.json) -- one customer per line, <br/>JSON-encoded. <br/>We want to invite any customer within 100km of our Dublin office for some food and drinks on us. <br/>Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), <br/>sorted by User ID (ascending).
 <ul>
 <li>
@@ -13,6 +18,7 @@ The GPS coordinates for our Dublin office are 53.3381985, -6.2592576.
 You can find the Customer list here.
 </li>
 </ul>
+
 
 
 
