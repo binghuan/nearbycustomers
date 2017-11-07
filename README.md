@@ -19,7 +19,6 @@ You can find the Customer list here.
 </li>
 </ul>
 
-### coding quest from "intercom.io", 
 #### The Test
 - What's your proudest achievement? It can be a personal project or something you've worked on professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it, what impact it had (If any) and any insights you took from it.
 - Write a function that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] → [1,2,3,4]. If the language you're using has a function to flatten arrays, you should pretend it doesn't exist.
@@ -30,6 +29,8 @@ The GPS coordinates for our Dublin office are 53.3381985, -6.2592576.
 You can find the Customer list here.
 <br/><br/>⭑ Please don’t forget, your code should be production ready, clean and tested!
 
+<br/><br/>
+coding quest from "intercom.io", 
 
 
 
